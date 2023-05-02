@@ -1,0 +1,48 @@
+/* frist-navbar part start */
+#frist-navbar{
+margin-top: -67px;
+}
+#frist-navbar button{
+    border: none;
+    width: 100px;
+    margin-left: 330px;
+  margin-top: -51px;
+    display: block;
+    }
+    #frist-navbar button:hover{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    }
+    #frist-navbar a h2{
+    color: #1A049D;
+    }
+    #frist-navbar ul{
+    margin-right: 0 !important;
+    }
+    #frist-navbar ul li{
+    font-weight: 600;
+    position: relative;
+    transition: 1s;
+    }
+    #frist-navbar ul li::before{
+    position: absolute;
+    content: '';
+    left: 10px;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    border-radius: 5px;
+    transition: .4s;
+    background-color: #1A049D;
+    }
+    #frist-navbar ul li:hover:before{
+    width: 50%;
+    }
+    #frist-navbar ul li:last-child{
+    color: #fff !important;
+    border-radius: 5px;
+    background-color: #1A049D;
+    width: auto;
+    }
+    /* frist navbar part end */

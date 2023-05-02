@@ -1,0 +1,27 @@
+@media (min-width: 768px) and (max-width: 1199.98px) { 
+
+#frist-navbar button{
+display: none;
+}
+
+ }
+
+ @media (min-width: 768px) { 
+    #frist-navbar button{
+        display: none;
+        }
+ }
+
+ @media (min-width: 992px) { 
+    #frist-navbar button{
+        display: none;
+        }
+  }
+
+  @media (min-width: 1200px) { 
+
+    #frist-navbar button{
+        display: none;
+        }
+
+   }
